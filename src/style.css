@@ -1,1 +1,39 @@
-/* Acá va tu código */
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+body{
+background: url(fotopro.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+font-family: 'Lucida Sans';
+font-size: center;
+
+}
+
+section{
+font-kerning: color blue ;   
+color:blue;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+
+
+
+
+
+   
+
+
+}

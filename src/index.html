@@ -6,9 +6,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <!--titulo-->
+  <header> 
+  <h1><strong>SECRET MESSAGE TEXT</strong></h1>
+</header>
+
+<section>
+  <div >
+  <h2>Ingresa tu mensaje y tu número preferido
+     para ocultar el mensaje que deseas enviar</h2>
     </div>
+  
+  
+    <div id="contenedor1">
+      <!--para que usuario ingrese su mensaje-->
+    <input type= "text" id="mensaje" placeholder="Escribe tu mensaje"/>
+    </div>
+  
+    <!--para que usuario ingrese su numero-->
+  <div id="contenedorabajo">
+    <input type= "text" id="numbersecret" placeholder="Ingresa tu número"/> 
+  </div>
+  
+  <div id="contenedor2"> 
+      <button id="encode" onclick="funcEncode()">Cifrar</button>
+      <p id="result"></p>
+   </div>
+  
+   <div>
+    <button id="decode" onclick="funcDecode()">Descifrar</button>
+    <p id="descifrado"></p>
+  </div>
+  
+  
+  </div>
+</section>
+
+
+  <div class="footer">
+    <swich><strong>Enviar</strong></swich>
+    
+  </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
